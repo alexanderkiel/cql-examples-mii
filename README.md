@@ -31,6 +31,12 @@ blazectl --server http://localhost:8080/fhir evaluate-measure queries/hemoglobin
 blazectl --server http://localhost:8080/fhir evaluate-measure queries/antidiabetika.yml | jq -f result.jq
 ```
 
+### Specimen
+
+```sh
+blazectl --server http://localhost:8080/fhir evaluate-measure queries/specimen.yml | jq -f result.jq
+```
+
 [1]: <https://forschen-fuer-gesundheit.de>
 [2]: <https://github.com/samply/blazectl>
 [3]: <https://github.com/samply/blaze>
