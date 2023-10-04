@@ -1,0 +1,5 @@
+library: queries/diabetes-mellitus.cql
+group:
+- type: Patient
+  population:
+  - expression: InInitialPopulation
