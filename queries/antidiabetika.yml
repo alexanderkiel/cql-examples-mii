@@ -1,0 +1,5 @@
+library: queries/antidiabetika.cql
+group:
+- type: Patient
+  population:
+  - expression: InInitialPopulation
