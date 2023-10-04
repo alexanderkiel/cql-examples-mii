@@ -7,6 +7,12 @@ This repository contains example CQL queries from the [German Research Data Port
 First you need to install the command line tool [blazectl][2] and optionally [jq][4]. After that, you need to run a
 [Blaze FHIR server][3]. In our examples the Blaze FHIR server is reachable under `http://localhost:8080/fhir`.
 
+### Gender Female
+
+```sh
+blazectl --server http://localhost:8080/fhir evaluate-measure queries/gender-female.yml | jq -f result.jq
+```
+
 ### Diabetes Mellitus
 
 ```sh

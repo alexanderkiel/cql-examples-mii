@@ -1,0 +1,5 @@
+library: queries/gender-female.cql
+group:
+- type: Patient
+  population:
+  - expression: InInitialPopulation
