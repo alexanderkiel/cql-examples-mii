@@ -37,6 +37,12 @@ blazectl --server http://localhost:8080/fhir evaluate-measure queries/antidiabet
 blazectl --server http://localhost:8080/fhir evaluate-measure queries/specimen.yml | jq -f result.jq
 ```
 
+### Consent
+
+```sh
+blazectl --server http://localhost:8080/fhir evaluate-measure queries/consent.yml | jq -f result.jq
+```
+
 [1]: <https://forschen-fuer-gesundheit.de>
 [2]: <https://github.com/samply/blazectl>
 [3]: <https://github.com/samply/blaze>
